@@ -1,0 +1,338 @@
+:root{
+    --main-color :#e84118;
+    --white: #f7f5f4;
+    --soft-gray :#b2bec3;
+    --dark-gray: #2d3436;
+}
+/* =======================start our template============================================== */
+body{
+    background-color: black;
+  overflow-x: hidden;
+}
+ header .overlay{
+    height: 100%;
+    opacity: 60%;
+  
+ }
+ header nav{
+    padding: 8px 16px ;
+    z-index: 999;
+    min-width: 100%;
+}
+ header nav.show{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(45,52,54);
+ }
+nav a {
+    color:var(--white) !important;
+   
+}
+nav a span{
+    color:  var(--main-color);
+}
+
+header{
+    background-image: url(../imgs/slide-1.jpg); 
+   height: 90vh;
+   
+ }
+header  ul li{
+    /* border:1px solid var(--soft-gray) !important; */
+    color: var(--white) ;
+   margin-left: 5px;
+   /* background-color: var(--dark-gray); */
+  
+  
+   
+}
+
+header ul li:hover{
+    background-color: var(--main-color);
+    border:1px solid var(--main-color) !important;
+}
+header .caption{
+    color: var(--white) ;
+}
+header .caption h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header .caption span{
+ color: var(--main-color);
+}
+
+header .caption a{
+    border:1px solid var(--soft-gray) !important;
+    color: var(--white) ;
+
+}
+
+header .caption a:hover{
+    background-color: var(--main-color);
+    border:1px solid var(--main-color) !important;
+} */
+
+
+/* ======end header====== */
+/* ====================start Design ================================ */
+aside div{
+    margin-left: 6%;
+
+}
+aside ul{
+    color: var(--main-color);
+ 
+}
+aside ul .circle-icon {
+    background:var(--white);
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    text-align: center;
+    line-height:50px;
+    vertical-align: middle;
+    padding: 20px;
+    border:3px solid var(--white);
+}
+aside ul .circle-icon:hover{
+    background-color: var(--main-color);
+      color: var(--white);
+  
+  }
+ p{
+    color:#faf9f8;
+ }
+ h1{
+    color:var(--main-color);
+ }
+ /*================== end Design =========================================== */
+/* =======================end our template============================================== */
+
+/* ========================================== start our work style ========================================= */
+section .caption h1 span{
+    color: var(--main-color);
+}
+section  a:hover{
+    background-color: var(--main-color) !important;
+ border: 9px solid var(--main-color) !important;
+ color: var(--white) !important;
+}
+#btn{
+    color: var(--white);
+}
+/* ==================================== end our work style ========================================= */
+
+
+/* ======================start our team section ================================================== */
+section-our img{
+    filter:grayscale(100%);
+    width: 70%;
+    transition: all 0.5s ease-in-out;
+}
+section-our img:hover{
+    filter:grayscale(0%);
+   
+}
+ul:hover{
+    color: #e84118;
+}
+
+section-our ul{
+    color:var(--white);
+    
+   
+}
+section-our ul .circle-icon {
+    background:var(--dark-gray);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:15px;
+    vertical-align: middle;
+    padding: 10px;
+}
+section-our .caption h1 span{
+    color: var(--main-color);
+}
+section-our  a:hover{
+    background-color: var(--main-color) !important;
+ border: 1px solid var(--main-color) !important;
+ color: var(--white) !important;
+}
+
+
+/* ======================end our team section ================================================== */
+
+ /* =======================start say hello================================== */
+  
+footer{
+    /* background-image: url(../imgs/contact-bg.jpg); 
+    height: 100vh;
+   margin-top: 5%; */
+   min-height: 100vh;
+   background-color: black;
+    background-image: url("../imgs/contact-bg.jpg");
+    background-size: cover;
+    position: relative;
+    top: 70px;
+     z-index: 1 !important;
+}
+footer .overlay{
+    /* height: 100%;
+    background-color: rgba(0 0 0/ 50%); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+    z-index: -1 !important;
+ }
+
+footer .caption{
+    color: var(--white) ;
+    margin-top: -150px;
+    /* z-index: 2; */
+   
+}
+footer .caption h1{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+footer .caption h1 span{
+    color: var(--main-color);
+}
+
+footer label{
+padding-top: 290px;
+/* z-index: 2; */
+width: 40% !important;
+padding-left: 10% !important;
+
+}
+ footer form input , textarea{
+    background-color:transparent !important;
+}
+
+footer .Description{
+width: 80% !important;
+padding-top: 3%!important;
+/* background-color: transparent; */
+
+
+}
+/* footer .hire-us{
+    z-index: 1 !important;
+} */
+
+footer  a{
+    background-color: var(--main-color) !important;
+ border: 1px solid var(--main-color) !important;
+ color: var(--white) !important;
+ margin-left: 10%;
+ /* z-index: 9 !important; */
+
+}
+footer ul{
+    /* z-index: 2 !important; */
+    margin-left: 64%;
+    margin-top: -3%;
+   
+}
+footer ul .circle-icon {
+    /* background:var(--dark-gray); */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:15px;
+    /* vertical-align: middle; */
+    padding: 10px;
+}
+#icon1{
+    background-color: rgb(35, 35, 131);
+}
+#icon2{
+    background-color: deepskyblue;
+}
+#icon3{
+    background-color: #d32924;
+}
+#icon4{
+    background-color: rgb(233, 65, 99);
+}
+footer .end-footer{
+    background-color: var(--dark-gray);
+    height: 100px;
+
+}
+footer .end-footer p{
+    margin-top: -3%;
+   
+}
+/* =======================end say hello================================== */
+
+/* start icons option */
+#icon-up{
+    z-index: 1000;
+    position: fixed;
+    right: -50px;
+    bottom: 20px;
+    font-size: 30px;
+    padding: 11px;
+    background-color:var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+#icon-up.show{
+    right: 20px;
+    bottom: 80px;
+}
+#dark-mode{
+    z-index: 1000;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+    display: none;
+}
+#dark-mode.up{
+    bottom: 80px;
+}
+/* end icons option */
+/* start style dark mode */
+#dark-sun{
+    z-index: 1000;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+    
+}
+#dark-sun.up{
+    bottom: 80px;
+}
+
+section{
+    transition: .5s;
+}
+/* end style dark mode */
